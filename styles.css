@@ -11,6 +11,7 @@ body {
 
 .postcard-header {
 	display: flex;
+	padding: 10px;
 }
 
 .postcard-header img {
@@ -33,6 +34,7 @@ body {
 
 .body-left p {
 	text-align: justify;
+	font-size: 15px;
 }
 
 .body-left,
@@ -42,8 +44,7 @@ body {
 
 input {
 	border: none;
-	border-bottom: 2px; /* no actua */
-	border-color: grey;
+	border-bottom: 2px solid grey; /* no actua */
 }
 
 p {
